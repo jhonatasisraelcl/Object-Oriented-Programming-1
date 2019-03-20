@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Retangulo
+comment0.text=\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ classe\ Retangulo\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (n\u00FAmero\ de\ vers\u00E3o\ ou\ data)\n
+comment1.params=l\ a
+comment1.target=Retangulo(double,\ double)
+comment2.params=l
+comment2.target=Retangulo(double)
+comment3.params=
+comment3.target=double\ area()
+numComments=4
