@@ -24,7 +24,7 @@ public class Atendimento
     }
     public boolean estaEncerrado(){return horaSaida != null;}
 
-    //get e set NomeDoTitular
+    //get e set
     public void setIdentificaPaciente(String identificaPaciente)
     {
         this.identificaPaciente=identificaPaciente;
@@ -39,5 +39,21 @@ public class Atendimento
     }
     public double getTempoEstimado(){
         return this.tempoEstimado;
+    }
+    
+       public void setHoraEntrada(Date horaEntrada)
+    {
+        this.horaEntrada=horaEntrada;
+    }
+    public Date gethoraEntrada(){
+        return this.horaEntrada;
+    }
+    
+       public void setHoraSaida(Date horaSaida)
+    {
+        this.horaSaida=horaSaida;
+    }
+    public Date gethoraSaida(){
+        return this.horaSaida;
     }
 }

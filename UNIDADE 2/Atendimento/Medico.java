@@ -15,6 +15,10 @@ public class Medico
             if(a.getIdentificaPaciente().equals(id)) return a;
         return null; 
     }
-
+    public double mediaReal(){
+        double resultado = 0;
+        int quantidade =0;
+        for (Atendimento a : atendimentos){
+            if(A
     
 }
