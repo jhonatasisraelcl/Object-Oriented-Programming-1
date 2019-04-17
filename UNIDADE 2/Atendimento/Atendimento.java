@@ -14,4 +14,30 @@ public class Atendimento
     private String identificaPaciente;
     private Date horaEntrada;
     private Date horaSaida;
+    
+    public void registrarEntrada(){
+       horaEntrada = new Date();
+    }
+    
+    public double calcularTempo(){
+        return 1;
+    }
+    public boolean estaEncerrado(){return horaSaida != null;}
+
+    //get e set NomeDoTitular
+    public void setIdentificaPaciente(String identificaPaciente)
+    {
+        this.identificaPaciente=identificaPaciente;
+    }
+    public String getIdentificaPaciente(){
+        return this.identificaPaciente;
+    }
+    
+     public void setTempoEstimado(double tempoEstimado)
+    {
+        this.tempoEstimado=tempoEstimado;
+    }
+    public double getTempoEstimado(){
+        return this.tempoEstimado;
+    }
 }
