@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.target=ContaCorrente
+comment0.text=\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ classe\ ContaCorrente\ aqui.\n\ \n\ LAURENTINO,\ J.I.C.\n\ SEX,\ 05\ DE\ ABRIL\ DE\ 2019\n
+comment1.params=
+comment1.target=ContaCorrente()
+comment1.text=\n\ COnstrutor\ para\ objetos\ da\ classe\ ContaCorrente\n
+comment10.params=valor
+comment10.target=boolean\ deposita(double)
+comment11.params=valor
+comment11.target=boolean\ saque(double)
+comment12.params=valor\ c1
+comment12.target=boolean\ transfere(double,\ ContaCorrente)
+comment2.params=nomeTitular
+comment2.target=void\ setNomeTitular(java.lang.String)
+comment2.text=\n\ \ \ \ public\ ContaCorrente(String\ nome,String\ agencia,String\ conta,double\ saldo,double\ limite)\n\ \ \ \ {\n\ \ \ \ \ \ \ \ taxaManutencao\ \=\ 0.33;\n\ \ \ \ \ \ \ \ this.nomeTitular\=\ nome;\n\ \ \ \ \ \ \ \ this.numeroAgencia\=\ agencia;\n\ \ \ \ \ \ \ \ this.numeroConta\=conta;\n\ \ \ \ \ \ \ \ this.saldo\=saldo;\n\ \ \ \ \ \ \ \ this.limite\=limite;\n\ \ \ \ }\n\n\ \ \ \ public\ ContaCorrente(String\ nome,String\ agencia,double\ deposito)\n\ \ \ \ {\n\ \ \ \ \ \ \ \ nomeTitular\=nome;\n\ \ \ \ \ \ \ \ numeroAgencia\=\ agencia;\n\ \ \ \ \ \ \ \ saldo\=deposito;\t\n\ \ \ \ \ \ \ \ taxaManutencao\ \=\ 0.33;\n}*
+comment3.params=
+comment3.target=java.lang.String\ getNometitular()
+comment4.params=numeroAgencia
+comment4.target=void\ setNumeroAgencia(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getNumeroAgencia()
+comment6.params=numeroConta
+comment6.target=void\ setNumeroConta(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getNumeroConta()
+comment8.params=
+comment8.target=double\ saldo()
+comment9.params=
+comment9.target=double\ limite()
+numComments=13
